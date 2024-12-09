@@ -1,0 +1,21 @@
+# Maven
+target/
+
+# Eclipse
+.metadata/
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Maven Wrapper
+.mvn/wrapper/
+
+# Arquivos de configuração do Eclipse
+.classpath
+.project
+.settings/
+
+# IDEs (ou outras ferramentas de desenvolvimento)
+.idea/
+*.iml
