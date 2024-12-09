@@ -34,15 +34,6 @@ public class Filme {
         return elenco.remove(ator);
     }
 
-    // Método 3: Atualizar a duração do filme
-    public boolean atualizarDuracao(int novaDuracao) {
-        if (novaDuracao <= 0) {
-            return false;
-        }
-        this.duracaoEmMinutos = novaDuracao;
-        return true;
-    }
-
     // Método 4: Verificar se o filme está classificado para maiores de 18 anos
     public boolean isClassificadoParaMaiorDe18() {
         return "18".equals(this.classificacao);
@@ -52,7 +43,13 @@ public class Filme {
     public List<String> listarElenco() {
         return new ArrayList<>(elenco);
     }
+    
+    // TODO: Implementar método 6: Atualizar as informações do filme
+    public void atualizarFilme() {}
 
+    // TODO: Implementar método 7: Removes o filme
+    public void removerFilme() {}
+    
     // Getters e Setters
     public int getId() {
         return id;
