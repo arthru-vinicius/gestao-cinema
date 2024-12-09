@@ -16,6 +16,6 @@ target/
 .project
 .settings/
 
-# IDEs (ou outras ferramentas de desenvolvimento)
+# IDEs
 .idea/
 *.iml
